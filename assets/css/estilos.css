@@ -29,13 +29,28 @@
   .hero{
       margin-top: -80px;
   }
-   hr {
-    border: 2px; 
-    height: 5px;
-       color: var(--fondo-p);
-       background-color: var(--fondo-p);
-
+   
+   .rectangulo-delgado{
+    background-color: var(--fondo-p);
+    width: 100%;
+    height: 2px;
+    margin-top: 40px;
+    margin-bottom: 40px;
    }
+
+   .icono-p{
+    text-align: center; 
+    background: var(--fondo-p);
+    color: #fff;
+    font-size: 30px;
+    padding: 5px;
+    width: 100%;
+    margin-bottom: 5px;
+   }
+
    p {
        color: white;
    }
+   .card{
+    max-width: 280px;
+}
