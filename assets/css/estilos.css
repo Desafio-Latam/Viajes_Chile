@@ -1,4 +1,41 @@
+:root {
+    --fondo-p: rgb(13, 153, 235);
+  }
 
-.img-fondo{
-    background-image: url('/assets/img/viajes.svg');
+*{
+    margin: 0px;
+    padding: 0px;
 }
+ body{
+     background-color: black;
+ }
+
+/* .header{
+
+  min-height: 100vh;
+} */
+.header .navbar {
+    background-color: transparent !important;
+    z-index: 2;
+    
+  }
+
+  h2{
+      text-align: center;
+      padding-top: 40px;
+      color:white;
+  }
+
+  .hero{
+      margin-top: -80px;
+  }
+   hr {
+    border: 2px; 
+    height: 5px;
+       color: var(--fondo-p);
+       background-color: var(--fondo-p);
+
+   }
+   p {
+       color: white;
+   }
